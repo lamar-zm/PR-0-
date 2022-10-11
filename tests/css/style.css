@@ -1,0 +1,672 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --white_color:#FFFFFF;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    cursor: default;
+}
+
+
+section.main-1{
+    height: 100vh;
+    background-color: #252B42;
+}
+section.main-1 header{
+    height: 8rem;
+    
+}
+
+section.main-1 header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+section.main-1 header nav img{
+    display: none;
+}
+
+section.main-1 header nav h2 {
+    font-size: 2rem;
+    color: var(--white_color);
+}
+
+section.main-1 header nav ul {
+    display: flex;
+    gap: 7rem;
+    font-size: 1.6rem;
+    list-style-type: none;
+}
+
+section.main-1 header nav ul li a{
+    text-decoration: none;
+    color: var(--white_color);
+
+}
+section.main-1 header nav ul li a:hover{
+    color: #1d80b9;
+    
+}
+
+section.main-1 header nav .buttons{
+    display: flex;
+}
+
+section.main-1 header nav .buttons .btn-1{
+    border: none;
+    background-color: transparent;
+    color: var(--white_color);
+    margin-right: 5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+section.main-1 header nav .buttons .btn-1:hover{
+    cursor: pointer;
+    color: #23A6F0;
+    cursor: pointer;
+    text-shadow: 0px 0px 40px #23A6F0;
+    transform: scale(1.09);
+
+    
+    
+}
+
+section.main-1 header nav .buttons .btn-2{
+    padding: 1rem 3rem;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 0.3rem;
+    color: var(--white_color);
+    padding-right: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+section.main-1 header nav .buttons .btn-2:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #23A6F0;
+    transform: scale(1.09);
+}
+
+
+section.main-1 .main-content{
+    display: flex;
+}
+
+
+section.main-1 div.main-content .left-content{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10rem;
+}
+section.main-1 div.main-content .left-content .p-1{
+    font-size: 1.9rem;
+    color: #23A6F0;
+}
+
+section.main-1 div.main-content .left-content h3{
+    font-size: 5rem;
+    color: var(--white_color);
+    letter-spacing: 0.3rem;
+}
+
+section.main-1 div.main-content .left-content .p-2{
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.897);
+    line-height: 2.3rem;
+    letter-spacing: 0.07rem;
+}
+
+
+
+section.main-1 div.main-content .left-content .buttons-2 .join-us{
+    padding: 1rem 3rem;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 0.3rem;
+    color: var(--white_color);
+    letter-spacing: 0.08rem;
+    transition:  all 0.2s ease-in-out;
+}
+section.main-1 div.main-content .left-content .buttons-2 .join-us:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #23A6F0;
+    transform: scale(1.09);
+}
+
+section.main-1 div.main-content .left-content .buttons-2 .learn-more{
+    padding: 1rem 3rem;
+    background-color:transparent ;
+    border:1px solid #23A6F0;
+    color: #23A6F0;
+    border-radius: 0.3rem;
+    margin-left: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+section.main-1 div.main-content .left-content .buttons-2 .learn-more a{
+    text-decoration: none;
+    color: #23A6F0;
+}
+
+section.main-1 div.main-content .left-content .buttons-2 .learn-more:hover{
+    cursor: pointer;
+    color: var(--white_color);
+    box-shadow: 0px 0px 10px #23A6F0;
+    transform: scale(1.09);
+
+}
+
+
+
+section.main-1 div.main-content .right-content{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+}
+
+
+section.main-1 div.main-content .right-content .yellow-vector{
+    background-image:url(/images/yellow\ vector.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 35rem;
+    width: 35rem;
+    right: 9.8rem;
+    bottom: 6rem;
+
+}
+
+
+
+section.main-1 div.main-content .right-content .blue-vector{
+    background-image: url(/images/Vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 35rem;
+    width: 35rem;
+    right: 2rem;
+    bottom: 1rem;
+}
+
+section.main-1 div.main-content .right-content .img{
+    background-image: url(/images/yong\ girl\ png\ image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 35rem;
+    width: 35rem;
+    right: 8rem;
+    bottom: 5rem;
+}
+
+section.main-1 div.main-content .right-content .data{
+    background-image: url(/images/data.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 14rem;
+    width: 44rem;
+    right: 6rem;
+    bottom: -1rem;
+    border-radius: 1rem;
+}
+
+
+section.main-2{
+    height: 100vh;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+section.main-2 div.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.main-2 div.main .text{
+    height:25rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+section.main-2 div.main div.text .p-1{
+    color: #23A6F0;
+    font-size: 1.8rem;
+    letter-spacing: 0.04rem;
+}
+
+section.main-2 div.main div.text h4{
+  font-size: 4rem;  
+  letter-spacing: 0.04rem;
+  color: #252B42;
+}
+
+section.main-2 div.main div.text .p-2{
+    font-size: 1.4rem;
+    letter-spacing: 0.04rem;
+    color: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+
+section.main-2 div.main div.main-content{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+section.main-2 div.main div.main-content .left{
+    height: 35rem;
+    width: 30rem;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white_color);
+    border-radius: 0.6rem;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .30);
+    transition: all 0.3s ease-in-out;
+    
+}
+section.main-2 div.main div.main-content .left:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+}
+
+
+section.main-2 div.main div.main-content .left .img{
+    height: 7.7rem;
+    width: 7.1rem;
+    margin-top: 2rem;
+    background-image: url(/icons/heart.png);
+    background-repeat: no-repeat;
+    
+}
+section.main-2 div.main div.main-content .left .text{
+    width: 100%;
+}
+
+section.main-2 div.main div.main-content .left .text .p-1{
+    color: #252B42;
+    border-bottom: 1px solid red;
+    border-width:  0.1rem;
+    padding-bottom: 2rem;
+}
+
+section.main-2 div.main div.main-content .left .text .p-2{
+    font-size: 1.7rem;
+    text-align: center;
+    
+}
+
+section.main-2 div.main div.main-content .right{
+    height: 35rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white_color);
+    border-radius: 0.6rem;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .30);
+    transition: all 0.3s ease-in-out;
+}
+
+section.main-2 div.main div.main-content .right:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+}
+section.main-2 div.main div.main-content .right .img{
+    height: 7.7rem;
+    width: 7.1rem;
+    background-image: url(/icons/nike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    
+}
+
+section.main-2 div.main div.main-content .right .text .p-1{
+    font-size: 1.8rem;
+    color: black;
+    border-bottom: 1px solid red;
+    padding-bottom: 3.3rem ;
+    border-width: 0.02rem;
+}
+
+section.main-2 div.main div.main-content .right .text .p-2{
+    text-align: center;
+    font-size: 1.7rem;
+    
+}
+
+
+section.main-3 {
+    height: 100vh;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+section.main-3 div.main{
+    display: flex;
+
+}
+
+
+section.main-3 div.main div.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 60vh;
+    margin-left: 22rem;
+}
+
+section.main-3 div.main div.left-content .title{
+    font-size: 5rem;
+    letter-spacing: 0.02rem;
+    margin-top: 4rem;
+}
+
+section.main-3 div.main div.left-content .des{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.664);
+    margin-bottom: 5rem;
+    line-height: 1.8rem;
+}
+
+section.main-3 div.main div.left-content div.learn-more button{
+    background-color: transparent;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    transition: all 0.4s ease-in-out;
+}
+
+section.main-3 div.main div.left-content div.learn-more button:hover{
+    cursor: pointer;
+    transform: translateX(2rem);
+}
+
+section.main-3 div.main div.right-content{
+    height: 70vh;
+    width: 70vh;
+    margin-left: 18rem;
+    position: relative;
+} 
+
+section.main-3 div.main div.right-content .light-yellow{
+    height: 40rem;
+    width: 40rem;
+    background-image: url(/images/light\ yellow\ vector.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -6rem;
+    bottom: -1rem;
+}
+
+section.main-3 div.main div.right-content .dark-yellow{
+    height: 35rem;
+    width: 39rem;
+    background-image: url(/images/dark\ yellow\ vector.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+}
+
+section.main-3 div.main div.right-content .img{
+    height: 45rem;
+    width: 39rem;
+    background-image: url(/images/boy\ image.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 3rem;
+    bottom: -2rem;
+}
+
+section.main-4{
+    height: 100vh;
+    width: 100%;
+    background-color: #252B42;
+}
+
+section.main-4 div.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section.main-4 div.main .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+    width: 80%;
+    margin-top: 1rem;
+
+}
+
+section.main-4 div.main .text .p-1 p{
+    font-size: 1.8rem;
+    color: #23A6F0;
+    letter-spacing: 0.04rem;
+}
+
+section.main-4 div.main .text h6{
+    font-size: 5rem;
+    color: var(--white_color);
+    letter-spacing: 0.05rem;
+}
+
+section.main-4 div.main .text .p-2 p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgba(255,255,255,0.80);
+    margin-top: 0.5rem;
+}
+
+section.main-4 div.main div.img{
+    margin-bottom: 0.4rem;
+    border-radius: 0.2rem;
+    height:80rem;
+    width: 60%;
+    margin-top: 3rem;
+    background-image: url(/images/section-4\ image.png);
+    overflow-x:scroll ;
+}
+
+section.main-5 {
+    margin-top: 8rem;
+    height: 100vh;
+    width: 100%;
+}
+
+section.main-5 div.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section.main-5 div.main .top-content{
+    height: 25vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.main-5 div.main .top-content .p-1{
+    font-size: 1.8rem;
+    color: #23A6F0;
+    letter-spacing: 0.03rem;
+}
+
+section.main-5 div.main .top-content .title{
+    font-size: 5rem;
+    color:black;
+    letter-spacing: 00.05rem;
+
+}
+
+section.main-5 div.main .top-content .p-2{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+section.main-5 div.main .bottom-content{
+    margin-top: 4rem;
+    height: 65vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section.main-5 div.main .bottom-content .left-content{
+    height: 40rem;
+    width: 40%;
+    background-image: url(/images/women\ img.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .30);
+    transition: all 0.3s ease-in-out;
+}
+section.main-5 div.main .bottom-content .left-content:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+}
+
+
+section.main-5 div.main .bottom-content .right-content{
+    height: 40rem;
+    width: 40%;
+    background-image: url(/images/man\ img.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .30);
+    transition: all 0.3s ease-in-out;
+}
+
+section.main-5 div.main .bottom-content .right-content:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+}
+
+
+section.main-6{
+    height: 100vh;
+    width: 100%;
+}
+
+section.main-6 div.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section.main-6 div.main .top-content{
+    height:25vh;
+    width:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 18rem;
+}
+
+section.main-6 div.main .top-content .p-1{
+    font-size: 1.8rem;
+    color: #23A6F0;
+    letter-spacing: 0.03rem;
+}
+
+
+section.main-6 div.main .top-content .title{
+    font-size: 5rem;
+    letter-spacing: 00.05rem;
+}
+
+section.main-6 div.main .top-content .des{
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+section.main-6 div.main .bottom-content{
+    margin-top: 6rem;
+}
+
+section.main-6 div.main .bottom-content input{
+    width: 40rem;
+    height: 4.2rem;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+}
+
+
+
+section.main-6 div.main .bottom-content input::placeholder{
+    padding-left: 1.2rem;
+    color: black;
+}
+
+
+section.main-6 div.main .bottom-content button{
+    padding: 1.4rem 3rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #23A6F0;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    box-shadow: 8px 5px 8px rgba(0, 0, 0, .25);
+    transition: all ease-in-out 0.3s;
+    color: var(--white_color);
+}
+
+section.main-6 div.main .bottom-content button:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
